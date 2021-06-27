@@ -1,0 +1,315 @@
+#title{
+background-color: #ff4c68;
+
+}
+
+.tit{
+	font-family: "Montserrat-black";
+	font-size: 3rem;
+	line-height: 1.5;
+	color: #fff;
+
+}
+
+.container-fluid{
+	background-color: #ff449f;
+	padding: 3% 15%;
+
+}
+
+.btn.btn-outline-info{
+	color: white;
+	border-color: #fffeec;
+	border-width: 2px;
+}
+
+.navbar-brand{
+	font-size: 3rem;
+	font-family: "Ubuntu";
+	font-weight: bold;
+}
+
+
+.nav-item{
+
+
+  padding-right: 0em;
+}
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+
+
+}
+
+.download-button{
+	margin: 5% 4% 3% 0%;
+}
+
+.title-image{
+	width: 60%;
+	transform: rotate(30deg);
+/* Feature section*/
+}
+#features{
+	padding: 8% 16%;
+	text-align: center;
+}
+
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	color: #ba135d;
+	font-weight: bold;
+}
+
+p{
+	color: #f55c47;
+}
+
+.fas{
+	color: #ff449f;
+	margin-bottom: 1rem;
+}
+.fas:hover{
+	color:#bf1363;
+}
+
+
+
+/*testimonials
+*/
+
+#testimonials{
+
+	padding-bottom: 10px;
+	background-color: #ff449f;
+	text-align: center;
+}
+
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	border-color: white;
+	border-style: inset;
+}
+
+#photo-id{
+	font-style: italic;
+	color: white;
+}
+.testi-text{
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 50px;
+	font-weight: bold;
+	line-height: 3rem;
+	letter-spacing: 1px;
+}
+
+.carousel-item{
+	padding: 5% 16%;
+}
+
+/*PRESS
+*/
+#press{
+		background-color: #ff449f;
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 20px;
+}
+.press-logos{
+	width: 15rem;
+	margin: 20px 20px 40px;
+}
+
+.carousel-item{
+	background-color: red;
+	height: 500px;
+}
+
+.carousel-item{
+	background-color: #ff449f;
+	color: white;
+
+}
+
+/*CARD
+*/
+
+.card{
+	text-align: center;
+}
+
+/*BUTTON
+*/
+.signup-button{
+	background-color: #39a6a3;
+	color: white;
+	font-size: 20px;
+	border-color: #fff5b7;
+}
+
+#pricing{
+	padding: 100px;
+}
+
+.h2-heading{
+	font-size: 60px;
+	color: red;
+	text-align: center;
+	padding-bottom: 30px;
+
+
+}
+
+.p-text{
+	text-align: left;
+	padding-left: 30px;
+	color: black;
+	font-family: sans-serif;
+}
+
+@media (min-width: 900px)and (max-width: 1200px){
+
+	.h3{
+		color: #064420;
+
+	}
+
+}
+
+@media (max-width: 1028px) {
+	.title-image{
+		position: static;
+		transform: rotate(0);
+		align-items: center;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 1028d/fljpx) {
+	#title{
+
+		text-align: center;
+	}
+
+}
+
+#cta{
+	background-color: #ff449f;
+	font-size: 1em;
+
+	text-align: center;
+}
+
+.cta-h3{
+	font-size: 60px;
+	color: white;
+}
+
+
+.cta-button{
+	text-align: center;
+
+}
+
+
+#footer{
+	text-align: center;
+}
+
+.footer-icons{
+	padding-top: 60px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.instagram-photo{
+	width: 30px;
+	height: 30px;
+}
+
+.fot{
+text-align: left;
+	display: inline-flex;
+	color: red;
+	font-weight: normal;
+	font-family: 'Coming Soon', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Rochester', cursive;
+font-size: 40px;
+
+}
+
+.fott{
+
+font-family: 'Caveat', cursive;
+	font-weight: bold;
+font-size: 40px;
+}
+
+/* HTML CODE
+ <div class="abs">
+
+
+      <div class="red">
+      red
+
+    </div>
+
+    <div class="blue">
+    blue
+    </div>
+
+    <div class="green">
+    green
+    </div>
+
+
+
+		CSS CODE
+
+		.abs{
+			position:absolute;
+			border: 1px solid;
+		}
+
+		.red{
+			background-color: red;
+			height: 100px;
+			width: 100px;
+			position: static;
+
+		}
+
+		.blue{
+			background-color:blue;
+			left: 20px;
+			top: 20px;
+			height: 100px;
+			width: 100px;
+			position: absolute;
+		}
+
+		.green{
+			background-color:green;
+			left: 40px;
+			top: 40px;
+			height: 100px;
+			width: 100px;
+			position:absolute;
+
+		}
